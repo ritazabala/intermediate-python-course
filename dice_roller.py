@@ -1,13 +1,14 @@
 import random 
 
 def main():
-  rolls = 2
+  rolls = int(input('¿Cuántos dados te gustaría tirar?'))
+  size  =  int ( input ( '¿Cuántos lados tienen los dados?' ))
   dice_sum = 0
   for i in range(0,rolls):
-    roll = random.randint(1,6)
+    roll = random.randint(1,size)
     if roll == 1:
        print(f'¡Has obtenido un {roll}! Fallo crítico')
-    elif roll == 6:
+    elif roll == size:
        print(f'Has obtenido un {roll} !Éxito crítico!')
     else:
        print(f'haz lanzado un {roll}')
