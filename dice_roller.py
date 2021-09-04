@@ -8,7 +8,7 @@ def main():
     if roll == 1:
        print(f'¡Has obtenido un {roll}! Fallo critico')
     else:
-    print(f'haz lanzado un {roll}')
+       print(f'haz lanzado un {roll}')
     dice_sum = dice_sum + roll
     
   print ( f'Has obtenido un total de {dice_sum}' )
