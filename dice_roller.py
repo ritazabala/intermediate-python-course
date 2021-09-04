@@ -7,7 +7,7 @@ def main():
   dice_sum  =  0 
   for i in range(0,dice_rolls):
     rollo = random.randint(1,dice_size)
-    dice_sum  + =  rollo 
+    dice_sum  +=  rollo 
     if rollo == 1:
        print(f'¡Has obtenido un {roll}! Fallo crítico')
     elif rollo == dice_size:
