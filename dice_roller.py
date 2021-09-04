@@ -6,7 +6,9 @@ def main():
   for i in range(0,rolls):
     roll = random.randint(1,6)
     if roll == 1:
-       print(f'¡Has obtenido un {roll}! Fallo critico')
+       print(f'¡Has obtenido un {roll}! Fallo crítico')
+    elif roll == 6:
+       print(f'Has obtenido un {roll} !Éxito crítico!')
     else:
        print(f'haz lanzado un {roll}')
     dice_sum = dice_sum + roll
