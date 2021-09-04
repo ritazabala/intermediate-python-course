@@ -1,3 +1,4 @@
+import random 
 def main():
   dice_rolls = 2
   for i in range(0,dice_rolls):
