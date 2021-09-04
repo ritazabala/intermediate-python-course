@@ -9,11 +9,11 @@ def main():
     rollo = random.randint(1,dice_size)
     dice_sum  +=  rollo 
     if rollo == 1:
-       print(f'¡Has obtenido un {roll}! Fallo crítico')
+       print(f'¡Has obtenido un {rollo}! Fallo crítico')
     elif rollo == dice_size:
-       print(f'Has obtenido un {roll} !Éxito crítico!')
+       print(f'Has obtenido un {rollo} !Éxito crítico!')
     else:
-       print(f'haz lanzado un {roll}')
+       print(f'haz lanzado un {rollo}')
         
   print (f'Has obtenido un total de {dice_sum}')
 
