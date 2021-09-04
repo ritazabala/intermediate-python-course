@@ -1,6 +1,7 @@
 import random 
 
 def main():
+
   dice_rolls  =  int ( input ( '¿Cuántos dados te gustaría tirar?' ))
   dice_size  =  int ( input ( '¿Cuántos lados tienen los dados?' ))
   dice_sum  =  0 
@@ -15,6 +16,7 @@ def main():
        print(f'haz lanzado un {roll}')
         
   print (f'Has obtenido un total de {dice_sum}')
+
 
 if __name__== "__main__":
   main()
